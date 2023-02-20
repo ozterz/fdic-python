@@ -12,7 +12,7 @@ filtered_banks = []
 
 with open("banklist.csv", "r") as localfile: 
     reader = csv.DictReader(localfile)
-    # Rather than a "banks" plural", the singular "bank" 
+    # Rather than "banks" plural", the singular "bank" 
     # would be a better variable name since each row represents 
     # data about a single bank
     for banks in reader:
